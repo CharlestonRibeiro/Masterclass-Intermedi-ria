@@ -80,7 +80,7 @@ Este design é intuitivo e segue o Princípio da Menor Surpresa: o nome e a fun�
 ### Uso de comentários
 Usar comentários não é uma prática ruim, desde que de fato sejam comentários relevantes.
 
-## Sobre Classes e interfaces devem seguir o SOLID
+## Classes e interfaces devem seguir o SOLID
 
 ### 1. Responsabilidade Única (Single Responsibility Principle - SRP)
 Uma classe deve ter apenas uma razão para mudar, significando que ela deve ter apenas uma responsabilidade.
