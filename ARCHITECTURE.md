@@ -68,14 +68,12 @@ class Door {
   }
 }
 
-Neste exemplo simplificado:
-
+```
 A classe Door representa uma porta com uma propriedade isOpen, que indica se a porta está aberta (true) ou fechada (false).
 
 O método toggle alterna o estado da porta. Se a porta estiver fechada (ou seja, isOpen é false), chamar toggle mudará isOpen para true, indicando que a porta está agora aberta. Se a porta estiver aberta, chamar toggle a fechará.
 
 Este design é intuitivo e segue o Princípio da Menor Surpresa: o nome e a função do método toggle são óbvios e previsíveis, tornando o código fácil de entender e utilizar.
-```
 
 ### Uso de comentários
 Usar comentários não é uma prática ruim, desde que de fato sejam comentários relevantes.
