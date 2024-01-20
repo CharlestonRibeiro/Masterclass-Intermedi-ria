@@ -286,19 +286,6 @@ void main() {
 }
 ```
 
-```dart
-    @override
-  Future<AuthDto> signIn(String email, String password) async {
-    try {
-      final data = {'email': email, 'password': password};
-      final result = await _client.create(endpoint: RouteParameters.paramAuth, data: data);
-      return AuthDto.fromMap(result);
-    } catch (e) {
-      rethrow;
-    }
-  }
-  // Neste segundo exemplo, se ocorrer uma exceção, em vez de tentar tratá-la especificamente, ela utiliza rethrow. Isso significa que a exceção será propagada para a camada acima que pode ter mais contexto sobre como lidar com a exceção ou notificar o usuário de forma apropriada.
-```
 
 ## Camadas
 
@@ -370,6 +357,20 @@ As exceções devem ser tratadas de forma específica em cada camada do código.
     }
   }
   // Neste exemplo, a função create lida especificamente com DioException, uma exceção que pode ocorrer ao realizar uma requisição HTTP com o pacote Dio. Caso ocorra uma exceção que não seja DioException, a função captura essa exceção genérica e a encapsula em UnspecifiedExternalError, que é uma exceção personalizada para indicar um erro externo não especificado.
+```
+
+```dart
+    @override
+  Future<AuthDto> signIn(String email, String password) async {
+    try {
+      final data = {'email': email, 'password': password};
+      final result = await _client.create(endpoint: RouteParameters.paramAuth, data: data);
+      return AuthDto.fromMap(result);
+    } catch (e) {
+      rethrow;
+    }
+  }
+  // Neste segundo exemplo, se ocorrer uma exceção, em vez de tentar tratá-la especificamente, ela utiliza rethrow. Isso significa que a exceção será propagada para a camada acima que pode ter mais contexto sobre como lidar com a exceção ou notificar o usuário de forma apropriada.
 ```
 
 ## Gerenciamento de Pacotes
