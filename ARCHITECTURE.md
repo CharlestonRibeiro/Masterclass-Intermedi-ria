@@ -1,6 +1,6 @@
 # ARCHITECTURE
 
-Projeto para aplicação de conceitos. Saiba mais no [README](README.md).
+Sobre o que se trata o projeto saiba mais no [README](README.md).
 
 ## Nomenclatura
 
