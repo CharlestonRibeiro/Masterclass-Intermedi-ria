@@ -374,7 +374,7 @@ As exceções devem ser tratadas de forma específica em cada camada do código.
 
 ## Gerenciamento de Pacotes
 
-O projeto adota um conjunto específico de pacotes para garantir a consistência e a qualidade do código. Qualquer inclusão de pacotes adicionais deve ser discutida e aprovada pela equipe, e devidamente documentada antes de ser incorporada ao projeto. Isso assegura que todas as dependências são necessárias, mantendo o projeto limpo e bem organizado.
+O projeto utiliza o Flutter como framework principal e adota um conjunto específico de pacotes para garantir a consistência, qualidade e segurança do código. A inclusão de quaisquer pacotes adicionais deve ser avaliada, discutida com a equipe e devidamente documentada antes de sua integração ao projeto. Isso assegura a necessidade e relevância de cada dependência, mantendo o projeto limpo, organizado e alinhado com as melhores práticas.
 
 ### ``Bloc com Cubit``
 Para o gerenciamento de estado, o projeto utiliza o padrão Bloc em conjunto com Cubit. 
