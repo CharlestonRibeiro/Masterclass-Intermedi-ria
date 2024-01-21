@@ -1,6 +1,3 @@
-- [README](./README.md)
-- [Model Architecture](./MODEL_ARCHITECTURE.md)
-  
 # <p align="center">Masterclass Intermediária</p>
 
 ## Repositório de Teste da Masterclass Intermediária da Flutterando
