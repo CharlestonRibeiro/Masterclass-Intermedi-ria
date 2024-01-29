@@ -628,7 +628,7 @@ Após o recebimento da resposta da API, o caminho de retorno inicia. A resposta 
 ## Localdb (Requisições de Banco de Dados Local)
 O localdb é responsável por armazenar dados usando para isso de [banco de dados local](#external).
 
-Após a solicitação de dos dados no banco local, o caminho de retorno se inicia com a camada `External`. Os dados processados são então enviados à camada `Data`, a camada `Domain` onde regras de negócio específicas são aplicadas, os dados processados são encaminhados para a camada `Modules` que estruturado garante que os dados sejam apresentados ao usuário. Também seguindo o caminho inverso para o armazenamento de dados.
+Após a solicitação dos dados no banco local, o caminho de retorno se inicia com a camada `External`. Os dados processados são então enviados à camada `Data`, a camada `Domain` onde regras de negócio específicas são aplicadas, os dados processados são encaminhados para a camada `Modules` que estruturado garante que os dados sejam apresentados ao usuário. Também seguindo o caminho inverso para o armazenamento de dados.
 
 ## Services (Implementadores de Requisições de Dados Simples em Persistência Local)
 Os services são responsáveis por lidar com operações de dados que não necessitam de interação com sistemas externos, focando na persistência local.
