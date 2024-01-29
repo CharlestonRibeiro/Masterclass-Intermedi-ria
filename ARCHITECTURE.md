@@ -368,7 +368,7 @@ A implementação da instância atual de `Routes` é feita também através do p
 ### Requisições de API
 O projeto utiliza igualmete abstrações para requisições de API, implementadas na camada [external](#external).
 
-Devido à utilização atual da base de dados da aplicação, as atuais implementações são feitas através do package [parse_server_sdk_flutter](https://pub.dev/packages/parse_server_sdk_flutter).
+As requisições HTTP são feitas através do package [DIO](https://pub.dev/packages/dio).
 
 ### Banco Local
 O projeto incorpora também abstrações para interações com o banco de dados local, concentradas na camada external usando para isso o [Banco de dados Isar](https://isar.dev/pt/).
