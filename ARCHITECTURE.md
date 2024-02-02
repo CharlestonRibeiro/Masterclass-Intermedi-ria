@@ -371,7 +371,7 @@ O projeto utiliza igualmete abstrações para requisições de API, implementada
 As requisições HTTP são feitas através do package [DIO](https://pub.dev/packages/dio).
 
 ### Banco Local
-O projeto incorpora também abstrações para interações com o banco de dados local, concentradas na camada external usando para isso o [Banco de dados Isar](https://isar.dev/pt/).
+O projeto incorpora também abstrações para interações com o banco de dados local, concentradas na camada external usando para isso o [Banco de dados Hive](https://docs.hivedb.dev/#/).
 
 ### Widgets
 A aplicação deve ser construída com o máximo aproveitamento dos [widgets próprios do Material3](https://docs.flutter.dev/ui/widgets/material) já presentes no Flutter. É proibida a utilização de packages de widgets prontos que venham a ferir este princípio.
